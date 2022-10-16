@@ -1,12 +1,8 @@
 import "./styles/global.css";
-import { Text } from "./components/Text";
+import { SignIn } from "./pages/SignIn";
 
 function App() {
-  return (
-    <div>
-      <Text children={""} />
-    </div>
-  );
+  return <SignIn />;
 }
 
 export default App;
